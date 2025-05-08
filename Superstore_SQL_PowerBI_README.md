@@ -21,7 +21,7 @@ This end-to-end data analysis project explores a fictional retail dataset to unc
 
 ## 🧾 SQL Query Highlights
 
-> 📁 All SQL queries are saved in [`/sql/queries.sql`](./sql/queries.sql)
+> 📁 All SQL queries are saved in [`/queries/Script.sql`](./queries/Script.sql)
 
 Structured into 6 main themes:
 
@@ -51,17 +51,18 @@ Structured into 6 main themes:
 
 ## 📊 Power BI Dashboard Preview
 
-> 📁 Find the Power BI report in [`/dashboard/Superstore_Analysis.pbix`](./dashboard/Superstore_Analysis.pbix)
+>📁 Find the Power BI report in [`/dashboard/Superstore_Sales_Dashboard_Praveen.pbix`](./dashboard/Superstore_Sales_Dashboard_Praveen.pbix)
 
-`(Insert your dashboard screenshot here)`
+
+![Dashboard Preview](./visuals/dashboard.png)
 
 ### Dashboard Features:
-- 💰 **KPIs:** Total Sales, Total Profit, Order Count  
+- 💰 **KPIs:** Total Sales, Total Profit, Average Profit Margin
 - 🌍 **Region-wise Sales & Profit**
 - 📦 **Top 10 Products & Sub-Categories**
 - 🕒 **Sales Trends (Monthly/Quarterly)**
 - 🧍 **Customer Segment Performance**
-- 📉 **Shipping Delay & Discount Impact**
+- ⚠️ **Top 25 Loss-Making Orders with High Discounts**
 
 ## 🛠️ Tools & Technologies
 
@@ -75,19 +76,16 @@ Structured into 6 main themes:
 ## ✅ Key Business Insights
 
 - 📌 **Furniture** category had lower profit margins despite high sales
-- 📌 **Western region** was the top contributor to sales
-- 📌 Some high-discount orders consistently resulted in **losses**
+- 📌 **Consumers** remain the most profitable segment of customers consistently across all 4 years
+- 📌 **Western region** was the top contributor to sales, with the majority of orders coming from California
+- 📌 Some high-discount orders, particularly over 30% consistently resulted in **losses**
 - 📌 **Standard Class** shipping had the most orders but longest delays
+- 📌 Sales had a consistent positive spike in Q3 and Q4 across all four years
 
 ## 🚀 What I Learned
 
 - How to use **SQL** for real-world data slicing and trend analysis  
+- How to use **Power BI** for developing dashboards
 - Importance of **visual storytelling** in business intelligence  
 - How to tie together SQL and visualization tools for end-to-end analysis  
 - How operational factors (shipping, discounting) directly affect profitability  
-
-## 📌 Next Steps
-
-- Add new KPIs like **return rates**, **repeat customer rate**
-- Try implementing the same project using **PostgreSQL or MySQL**
-- Add **forecasting models** using Power BI
